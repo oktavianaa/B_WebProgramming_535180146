@@ -1,0 +1,42 @@
+header{
+    background-color: cadetblue;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Monotype Corsiva';
+    font-size: 25px;
+    color: cornsilk;
+}
+
+.title-emot{
+    color:darkblue;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+img{
+    display:none;
+}
+
+.hover-img :hover + img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.hover-text{
+    font-size: 45px;
+    color: cadetblue;
+    visibility: hidden;
+}
+
+p.hover-img:hover .hover-text{
+    visibility: visible;
+}
+
+.hover-img{
+    text-align: center;
+}
