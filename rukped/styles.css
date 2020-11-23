@@ -1,0 +1,52 @@
+.button1{
+    border: none;
+    background: none;
+    padding: none;
+    text-align: center;
+    width: fit-content;
+    font-size: small;
+    display: flex;
+    margin: 0%;
+    color: grey;
+}
+
+.button2{
+    border: none;
+    background: none;
+    padding: none;
+    text-align: center;
+    width: fit-content;
+    font-size: medium;
+    display: flex;
+    margin: 0%;
+    color: grey;
+}
+
+.row2{
+    margin-top: 0.2cm;
+}
+
+.row3{
+    font-size: small;
+    background-color: none;
+    padding: none;
+    text-align: center;
+}
+
+.tagihan{
+    font-size: 15px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.verif{
+    display: none;
+    position: fixed;
+    bottom: 5cm ;
+    right: 5cm;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-color: white;
+    height: fit-content;
+    width: 300px;
+}
